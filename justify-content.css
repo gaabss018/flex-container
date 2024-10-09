@@ -9,7 +9,7 @@ h1{
         color: #333;
     }
     .item{
-        flex: 1;
+        
         margin: 5px;
         background-color: tomato;
         text-align: center;
@@ -17,21 +17,29 @@ h1{
     }
     .container{
         display: flex;
-        max-width: 360px;
+        max-width: 420px;
         margin: 0 auto;
         border: 1px solid #ccc;
     }
-    .nowrap{
-        flex-wrap: nowrap;
-
-    }
-    .wrap{
-        flex-wrap: wrap;
-    }
-    .wrap-reverse{
-        flex-wrap: wrap-reverse;
-    }
-    
-  
-    
-    
+.flex-start{
+    justify-content: flex-start;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content:space-around ;
+}
+.flex{
+    flex:1;
+}
+.column{
+    flex-direction: column;
+    min-height: 200px;
+}

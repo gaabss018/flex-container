@@ -21,17 +21,21 @@ h1{
         margin: 0 auto;
         border: 1px solid #ccc;
     }
-    .nowrap{
-        flex-wrap: nowrap;
-
+    .stretch{
+        align-items: stretch;
     }
-    .wrap{
-        flex-wrap: wrap;
+    .flex-start{
+        align-items: start;
     }
-    .wrap-reverse{
-        flex-wrap: wrap-reverse;
+    .flex-end{
+        align-items: end;
     }
-    
-  
-    
-    
+    .center{
+        align-items: center;
+    }
+    .beseline{
+        align-items:baseline;
+    }
+    .item:first-child{
+        padding-top: 20px;
+    }
